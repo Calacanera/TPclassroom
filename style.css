@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    background-color: #6247a0;
+    }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    overflow: none;
+}
+
+.img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 15px;
+}
+header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    text-shadow: 3px 3px 3px wheat;
+    text-align: center;
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+}
+
+.nav{
+    background-color: #ab8ef1;
+    margin: 3px;
+    padding: 8px;
+    border-radius: 50px;
+    width: 80%;
+    height: 70px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: #c8d2dd;
+    text-shadow: 2px 2px 3px #0056b3;   
+}
+
+.nav:hover{
+    background-color: #b9b5c7;
+    scale: 1.1;
+}
+
+p{
+    transform: translateY(-30%);
+}
+
+
+.reg{
+    display: flex;
+    flex-direction: flex-start;
+    text-align: center;
+    /* text-decoration: none;
+    color: aliceblue; */
+    margin: 15px;
+    /* border: black solid 10px; */
+}
+
+.reg a:hover{
+    background-color: #69abf1;
+    scale: 1.1;
+}
+
+.reg a{
+    background-color: #007bff;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 5px;
+    width: 80px;
+    text-decoration: none;
+    color: antiquewhite;
+    /* border: green solid 10px; */
+}
+
+.logo{
+    background-color: beige;
+    height: 40px;
+    width: 40px;
+    border: black 10px solid;
+}
+
+.sociales{
+    text-align: center;
+}
+
+/* Estilo del registro */
+main{
+    height: 200px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    overflow: none;
+    font-family: Arial,sans-serif;
+    color: #007bff;
+    text-shadow: 2px 2px 3px #0056b3;
+}
+.form img{
+    object-fit: cover;
+    width: 600px;
+    height: 75vh;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+
+form {
+    /* display: grid;
+    gap: 10px;
+    height: 30px;
+    width: 40%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75vh;
+    width: 1fr;
+    padding: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #0056b3;
+}
+  
+label {
+    display: block;
+}
+
+
+
+
+/* #6247a0 prin*/
+/* #21d4fd sec */
