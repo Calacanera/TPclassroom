@@ -16,8 +16,13 @@
 
   <main class="form">
     <img src="Img/Default_kids_student_with_a_computer_gettin_fun_in_violet_back_1.jpg" alt="niño">
-  <!-- <h1>Formulario de Registro</h1> -->
-    <form class="registro" id="registroForm">
+  <!-- <h1>Formulario de Registro</h1> 
+  -->
+  <div class="menu-container">
+    <button id="btn-ingreso" onclick="mostrarIngreso()">Ingresar</button>
+    <button id="btn-registro" onclick="mostrarRegistro()">Registrarse</button>
+  </div>
+    <form class="formulario" id="registroForm">
       <h1>Registrate</h1>
       <input type="text" id="nombre" placeholder="Nombre">
       <input type="text" id="apellido" placeholder="Apellido">
@@ -31,7 +36,7 @@
     </form>
 
   <!-- <h1>Formulario de Inicio de Sesión</h1> -->
-    <form class="registro" id="loginForm">
+    <form class="formulario" id="loginForm">
       <h2>Inicia Sesion</h2>
       <input type="email" id="emailLogin" placeholder="Correo electrónico">
       <input type="text" id="usuarioLogin" placeholder="Usuario">

@@ -102,6 +102,10 @@ main{
     height: 200px;
 }
 
+.formulario {
+    display: none;
+}
+
 .form {
     display: flex;
     justify-content: center;
