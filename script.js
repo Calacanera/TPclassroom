@@ -44,4 +44,3 @@ document.getElementById('registroForm').addEventListener('submit', function(even
     // Aquí agregar el código para enviar los datos al backend
     alert('¡Inicio de sesión exitoso!');
   });
-  
