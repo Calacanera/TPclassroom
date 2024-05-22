@@ -1,3 +1,15 @@
+function mostrarIngreso() {
+  document.getElementById('loginForm').style.display = 'flex';
+  document.getElementById('registroForm').style.display = 'none';
+}
+
+function mostrarRegistro() {
+  document.getElementById('loginForm').style.display = 'none';
+  document.getElementById('registroForm').style.display = 'flex';
+}
+
+
+
 document.getElementById('registroForm').addEventListener('submit', function(event) {
     event.preventDefault();
     let nombre = document.getElementById('nombre').value.trim();
@@ -32,4 +44,3 @@ document.getElementById('registroForm').addEventListener('submit', function(even
     // Aquí agregar el código para enviar los datos al backend
     alert('¡Inicio de sesión exitoso!');
   });
-  
