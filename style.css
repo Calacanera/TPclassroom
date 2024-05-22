@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #6247a0;
+    background-color: #e8eef3;
     }
 
 .container {
@@ -21,8 +21,8 @@ body {
 }
 header{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: whitesmoke;
-    text-shadow: 3px 3px 3px wheat;
+    color: rgb(112, 112, 250);
+    text-shadow: 3px 3px 3px rgb(250, 231, 196);
     text-align: center;
     
 }
@@ -36,7 +36,7 @@ nav {
 }
 
 .nav{
-    background-color: #ab8ef1;
+    background-color: #607cca;
     margin: 3px;
     padding: 8px;
     border-radius: 50px;
@@ -51,7 +51,7 @@ nav {
 }
 
 .nav:hover{
-    background-color: #b9b5c7;
+    background-color: rgb(69, 69, 253);
     scale: 1.1;
 }
 
