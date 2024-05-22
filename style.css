@@ -41,7 +41,7 @@ nav {
     padding: 8px;
     border-radius: 50px;
     width: 80%;
-    height: 70px;
+    height: 30%;
     text-align: center;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -56,7 +56,7 @@ nav {
 }
 
 p{
-    transform: translateY(-30%);
+    transform: translateY(70%);
 }
 
 
