@@ -42,7 +42,7 @@ document.getElementById('registroForm').addEventListener('submit', function(even
     }
   
     // Aquí agregar el código para enviar los datos al backend
-    window.location.href = "./inicio.html";
+    window.location.href = './inicio.html';
     // alert('¡Inicio de sesión exitoso!');
   });
   
